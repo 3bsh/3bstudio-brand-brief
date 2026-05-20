@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 3B Studio - Brand Brief Form
+
+A professional brand brief form built with Next.js 14 and TypeScript.
+
+## Features
+
+✨ Minimalist & Creative Design
+🎨 3B Studio Branding
+📱 Fully Responsive
+💾 Auto-save functionality
+🚀 8-step form process
+📧 Email submission ready
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 18+ installed
+- npm or yarn
 
+### Installation
+
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/YOUR_USERNAME/brand-brief-project.git
+cd brand-brief-project
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+### Deploy to Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/brand-brief-project)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Or manually:
+1. Push your code to GitHub
+2. Go to [Vercel](https://vercel.com)
+3. Click "New Project"
+4. Import your GitHub repository
+5. Click "Deploy"
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Framework:** Next.js 14
+- **Language:** TypeScript
+- **Styling:** CSS-in-JS
+- **Deployment:** Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Customization
+
+### Add Your Logo
+1. Place your logo image in `/public/logo.png`
+2. The form will automatically use it
+
+### Modify Brand Colors
+Edit the color variables in `/app/page.tsx`:
+```tsx
+// Change #6D5BD0 to your brand color
+```
+
+## Contact
+
+**3B Studio**
+- Email: 3bsssh@gmail.com
+- Phone: +964 785 080 0280
+- Portfolio: [3bshwork.myportfolio.com](https://3bshwork.myportfolio.com)
+
+---
+
+Building brands as systems.
